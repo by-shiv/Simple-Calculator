@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(170, 211, 252); 
+}
+
+.container {
+  background-color: #474747;
+  border-radius: 20px;
+  color: #fff;
+  max-width: 300px;
+  padding: 2rem;
+  width: 100%;
+  border: 2px solid black;
+  
+}
+
+.button{
+  width: 66px;
+  padding: 23px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  background-color: rgb(41, 40, 42);
+  color: #fff;
+}
+
+#btn{
+  width: 66px;
+  padding: 23px;
+  margin: 0 3px;
+  border: 2px solid rgb(43, 42, 51);
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  background-color: rgb(244, 139, 11);
+}
+
+#calc{
+  width: 66px;
+  padding: 23px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  background-color: rgb(255, 0, 98);
+}
+
+#opm{
+  width: 66px;
+  padding: 23px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  background-color: rgb(24, 13, 45);
+  color: #fff;
+}
+
+.row{
+  margin: 8px 0;
+}
+.row input{
+  width: 291px;
+  font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.text-center{
+    text-align: center;
+    font-size: 3rem;
+    font-style: italic;
+    text-decoration: underline;
+  }
+  
+  
+  .mx-auto{
+    margin: auto;
+  }
+  
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: stretch;
+}
+
+  .flex-col{
+    flex-direction: column;
+  }
+  
+  .items-center{
+    align-items: center;
+  }
